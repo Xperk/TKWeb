@@ -10,6 +10,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Sản Phẩm</title>
 </head>
 
@@ -52,18 +54,17 @@
                     </div>
                 </div>
                 <div class="dashboard_content_list active">
-                    <div class="dashboard_content_list_item_all">
+                    <!-- <div class="dashboard_content_list_item_all">
                         <div class="dashboard_content_list_item_deltal">
                             <input type="checkbox" name="" id="">
                             <h4 class="check_all">Tất cả</h4>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="dashboard_content_list_item">
+                        <div class="thumb_item">
+                            <img src="./assets/img/Rectangle 68.jpg" alt="">
+                        </div>
                         <div class="dashboard_content_list_item_deltal">
-                            <input type="checkbox" name="" id="">
-                            <div class="thumb_item">
-                                <img src="./assets/img/Rectangle 68.jpg" alt="">
-                            </div>
                             <div class="info_item">
                                 <div class="deltal_item">
                                     <h4>Áo khoác da bò Louis Vuitton</h4>
@@ -79,51 +80,15 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="price_cart_item">
-                            <div class="deltal_item price">1.969.999đ</div>
-                            <div class="emotion_item">
-                                Thêm vào danh sách yêu thích
-                                <i class="fa-regular fa-heart"></i>
-                            </div>
-                            <div class="deltal_item delete">
-                                Xóa khỏi
-                                <i class="fa-solid fa-trash"></i>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="dashboard_content_list_item">
-                        <div class="dashboard_content_list_item_deltal">
-                            <input type="checkbox" name="" id="">
-                            <div class="thumb_item">
-                                <img src="./assets/img/Rectangle 68.jpg" alt="">
-                            </div>
-                            <div class="info_item">
-                                <div class="deltal_item">
-                                    <h4>Áo khoác da bò Louis Vuitton</h4>
+                            <div class="price_cart_item">
+                                <div class="deltal_item price">1.969.999đ</div>
+                                <div class="emotion_item">
+                                    <i class="fa-regular fa-heart"></i>
                                 </div>
-                                <div class="deltal_item">Size: L</div>
-                                <div class="deltal_item">Màu: Đen</div>
-                                <div class="amount_item">
-                                    Số lượng:
-                                    <div class="number_amount">
-                                        <i class="fa-solid fa-minus cart_icon minus"></i>
-                                        <div class="number">1</div>
-                                        <i class="fa-solid fa-plus cart_icon plus"></i>
-                                    </div>
+                                <div class="deltal_item delete">
+                                    Xóa khỏi
+                                    <i class="fa-solid fa-trash icon_delete "></i>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="price_cart_item">
-                            <div class="deltal_item price">1.969.999đ</div>
-                            <div class="emotion_item">
-                                Thêm vào danh sách yêu thích
-                                <i class="fa-regular fa-heart"></i>
-                            </div>
-                            <div class="deltal_item delete">
-                                Xóa khỏi
-                                <i class="fa-solid fa-trash"></i>
                             </div>
                         </div>
                         <div class="line"></div>
@@ -146,10 +111,10 @@
                                 <div class="deltal_item">Dự kiến giao hàng trong 5 - 7 ngày kể từ lúc vận chuyển</div>
 
                             </div>
-                        </div>
-                        <div class="price_cart_item">
-                            <div class="deltal_item">
-                                15.000đ
+                            <div class="price_cart_item">
+                                <div class="deltal_item">
+                                    15.000đ
+                                </div>
                             </div>
                         </div>
                         <i class="fa-solid fa-box-open method_transport"></i>
@@ -163,10 +128,10 @@
                                 <div class="deltal_item">Dự kiến giao hàng trong 3 - 5 ngày kể từ lúc vận chuyển</div>
 
                             </div>
-                        </div>
-                        <div class="price_cart_item">
-                            <div class="deltal_item">
-                                30.000đ
+                            <div class="price_cart_item">
+                                <div class="deltal_item">
+                                    30.000đ
+                                </div>
                             </div>
                         </div>
                         <i class="fa-solid fa-truck-arrow-right method_transport"></i>
@@ -180,10 +145,10 @@
                                 <div class="deltal_item">Dự kiến giao hàng trong 1 - 2 ngày kể từ lúc vận chuyển</div>
 
                             </div>
-                        </div>
-                        <div class="price_cart_item">
-                            <div class="deltal_item">
-                                65.000đ
+                            <div class="price_cart_item">
+                                <div class="deltal_item">
+                                    65.000đ
+                                </div>
                             </div>
                         </div>
                         <i class="fa-solid fa-truck-fast method_transport"></i>
@@ -297,7 +262,7 @@
                 </div>
             </div>
 
-            <div class="dashboard_detail">
+            <div class="dashboard dashboard_detail">
                 <div class="dashboard_detail_item">
                     <div class="dashboard_item">
                         <div class="dashboard_content_list_item">
@@ -313,26 +278,23 @@
                                     <div class="deltal_item">Màu: Đen</div>
                                     <div class="amount_item">
                                         Số lượng
-                                        <div class="number">1</div>
+                                        <div class="number product_number">1</div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="price_cart_item">
-                                <div class="deltal_item price">1.969.999đ</div>
                             </div>
                             <div class="line"></div>
                         </div>
                         <div class="dashboard_content_list_item">
-                            <div class="dashboard_content_list_item_deltal">
+                            <div class="dashboard_content_list_item_deltal ">
                                 <div class="info_item">
                                     <div class="deltal_item">Tạm tính: </div>
                                     <div class="deltal_item">Phí vận chuyển: </div>
                                 </div>
-                            </div>
-                            <div class="price_cart_item">
-                                <div class="deltal_item price">1.969.999đ</div>
-                                <div class="deltal_item transport_fee">
-                                    15.000đ
+                                <div class="price_cart_item">
+                                    <div class="deltal_item price">1.969.999đ</div>
+                                    <div class="deltal_item transport_fee">
+                                        15.000đ
+                                    </div>
                                 </div>
                             </div>
                             <div class="line"></div>
@@ -345,9 +307,9 @@
                             <div class="info_item">
                                 <h4 class="deltal_item">Tổng (Đã bao gồm cả thuế VAT): </h4>
                             </div>
-                        </div>
-                        <div class="price_cart_item">
-                            <div class="deltal_item price">1.999.999đ</div>
+                            <div class="price_cart_item">
+                                <div class="deltal_item price">1.999.999đ</div>
+                            </div>
                         </div>
                     </div>
                     <div class="btn_continue">

@@ -6,7 +6,6 @@
 
 html {
     color: #333;
-    font-size: 17px;
     font-family: "Open Sans", sans-serif;
     font-family: "Roboto", sans-serif;
 }
@@ -21,7 +20,7 @@ html {
 }
 
 .cart_name {
-    font-size: 16px;
+    font-size: 2rem;
     margin: 20px 0;
 }
 
@@ -66,6 +65,8 @@ html {
     display: flex;
     align-items: center;
     font-size: 12px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .dashboard_content {
@@ -79,6 +80,8 @@ html {
 .dashboard_content_title {
     padding: 8px;
     cursor: pointer;
+    color: #8b8888;
+    font-size: 1.2rem;
 }
 
 .check_all {
@@ -104,6 +107,9 @@ html {
 .deltal_item {
     padding: 4px;
 }
+.emotion_item{
+    text-align: right;
+}
 
 .delete {
     cursor: pointer;
@@ -112,6 +118,10 @@ html {
 .price,
 .delete {
     text-align: right;
+}
+
+.checked {
+    color: #000;
 }
 
 .line {
@@ -130,6 +140,10 @@ html {
     position: absolute;
     transition: all 0.5s ease;
     bottom: 0;
+}
+
+.icon_delete {
+    color: red;
 }
 
 .click {
@@ -191,9 +205,11 @@ html {
     background-color: #fff;
     left: 10px;
 }
-.receiver_pay{
+
+.receiver_pay {
     display: none;
 }
+
 .receiver_info {
     display: flex;
     margin: 10px 0;
