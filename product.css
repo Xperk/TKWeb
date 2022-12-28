@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product_bestSeller_all i,
+.product_bestSeller_all,
+.products_bestSeller span{
+    color: #fff;
+}
+.products_container_heading {
+    margin-top: 150px;
+}
+
+
+.row.title {
+    font-weight: 600;
+}
+
+.dash_board {
+    background: #eee;
+    width: 1200px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.dash_board_item {
+    padding: 20px 30px;
+}
+
+.col {
+    margin: 8px 0;
+}
+
+.banner_product{
+    margin-top: 88px;
+    padding-top: 50%;
+    background: url('/img/Slice 3.png') top center / cover no-repeat;
+}
+.black_box {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    margin-right: 4px;
+    border-radius: 100%;
+}
+
+.blue_box {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    margin-right: 4px;
+    border-radius: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content_title {
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.red_box {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    margin-right: 4px;
+    border-radius: 100%;
+}
+
+.green_box {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    margin-right: 4px;
+    border-radius: 100%;
+}
+
+.white_box {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    margin-right: 4px;
+    border-radius: 100%;
+}

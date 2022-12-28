@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="s-account.css" />
+    <title>Tài Khoản Người Dùng</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="logo">
+        <a href="index.html"><img src="/img/NOW STORE.png" alt="" /></a>
+      </div>
+
+      <div class="menu">
+        <a href="index.html" class="home-page menu-item">Trang Chủ</a>
+        <a href="products.html" class="products-page menu-item">Sản Phẩm</a>
+        <a href="account.html" class="account-page menu-item menu-active"
+          >Tài Khoản</a
+        >
+        <a href="cart.html" class="cart-page menu-item">Giỏ Hàng</a>
+      </div>
+
+      <div class="search">
+        <div class="search-area">
+          <input type="text" placeholder="Tìm kiếm..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+    <div class="web-body">
+      <div class="account-container">
+        <aside>
+          <div class="top">
+            <div class="name-a">
+              <h2>Tài Khoản Người Dùng</h2>
+            </div>
+          </div>
+
+          <div class="sidebar">
+            <a href="#" id="a-info" class="active">
+              <h3>Thông tin chi tiết</h3></a
+            >
+            <a href="#" id="a-bought"><h3>Đơn mua</h3></a>
+            <a href="login.html" id="log-out"
+              ><h3>Đăng xuất</h3>
+              <i class="fa-solid fa-right-from-bracket"></i
+            ></a>
+          </div>
+        </aside>
+        <main>
+
+            <!-- info -->
+          <div class="info-main-container activated">
+            <div class="a-label"><h1>Thông tin cá nhân</h1></div>
+
+            <div class="a-row">
+              <div class="a-value-label">Họ và tên:</div>
+              <div class="a-value">Nguyễn Văn User</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div>
+            <hr />
+
+            <div class="a-row">
+              <div class="a-value-label">Ngày sinh:</div>
+              <div class="a-value">02/02/2002</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div>
+            <hr />
+
+            <div class="a-row">
+              <div class="a-value-label">Giới tính:</div>
+              <div class="a-value">Nam</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div>
+            <hr />
+
+            <div class="a-row">
+              <div class="a-value-label">Email:</div>
+              <div class="a-value">toilauser@gmail.com</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div>
+            <hr />
+
+            <div class="a-row">
+              <div class="a-value-label">Số điện thoại:</div>
+              <div class="a-value">0987654321</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div>
+            <div class="a-label"><h1>Thiết lập</h1></div>
+            <div class="a-row">
+              <div class="a-value-label">Mật khẩu:</div>
+              <div class="a-value">**********</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div>
+            <div class="a-row">
+              <button class="a-btn">Lưu Thay Đổi</button>
+            </div>
+          </div>
+
+          <!-- bought-items -->
+          <div class="bought-main-container">
+            <h2 class="bought-label">Đơn đã mua</h2>
+            <div class="bought-items-container">
+                <div class="bought-item">
+                    <div class="item-info">
+                        <div class="item-img"><img src="/img/Rectangle 70.png" alt=""></div>
+                        <div class="item-info-details">
+                            <h4>Áo sơ mi dài tay Luis Vuitton Military</h4>
+                            <span>Size: XL</span>
+                            <span>Màu: Trắng đen</span>
+                            <span>Số lượng: 1</span>
+                        </div>
+                        <div class="item-delivery-info">
+                            <span>1.000.000 đ</span>
+                            <div class="item-delivery-status">
+                                <i class="fa-solid fa-truck"></i>
+                                Đã vận chuyển
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="item-delivery-rout">
+                        <ul>
+                            <li>18:00 1/12/2022 Giao Hàng Thành Công</li>
+                            <li>18:00 1/12/2022 Đơn Hàng Đã Đến Địa Chỉ Giao Hàng</li>
+                            <li>11:00 1/12/2022 Đơn Hàng Đã Rời Kho</li>
+                            <li>8:00 1/12/2022 Đơn Hàng Đã Đến Kho Gia Lâm, Hà Nội</li>
+                            <li>7:00 1/12/2022 Giao Hàng Cho Đơn Vị Vận Chuyển</li>
+                            <li>18:00 30/11/2022 Đơn Hàng Được Duyệt</li>
+                        </ul>
+                    </div>
+                    <hr>
+
+                    <div class="item-fnc-btn">
+                        <button class="refund-btn">Yêu cầu hoàn tiền</button>
+                        <button class="confirm-btn">Đã nhận được hàng</button>
+                    </div>
+                </div>
+                <div class="bought-item">
+                    <div class="item-info">
+                        <div class="item-img"><img src="/img/Rectangle 70.png" alt=""></div>
+                        <div class="item-info-details">
+                            <h4>Áo sơ mi dài tay Luis Vuitton Military</h4>
+                            <span>Size: XL</span>
+                            <span>Màu: Trắng đen</span>
+                            <span>Số lượng: 1</span>
+                        </div>
+                        <div class="item-delivery-info">
+                            <span>1.000.000 đ</span>
+                            <div class="item-delivery-status">
+                                <i class="fa-solid fa-truck"></i>
+                                Đã vận chuyển
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    
+                    <div class="item-delivery-rout">
+                        <ul>
+                            <li>18:00 1/12/2022 Giao Hàng Thành Công</li>
+                            <li>18:00 1/12/2022 Đơn Hàng Đã Đến Địa Chỉ Giao Hàng</li>
+                            <li>11:00 1/12/2022 Đơn Hàng Đã Rời Kho</li>
+                            <li>8:00 1/12/2022 Đơn Hàng Đã Đến Kho Gia Lâm, Hà Nội</li>
+                            <li>7:00 1/12/2022 Giao Hàng Cho Đơn Vị Vận Chuyển</li>
+                            <li>18:00 30/11/2022 Đơn Hàng Được Duyệt</li>
+                        </ul>
+                    </div>
+                    <hr>
+
+                    <div class="item-fnc-btn">
+                        <button class="refund-btn">Yêu cầu hoàn tiền</button>
+                        <button class="confirm-btn">Đã nhận được hàng</button>
+                    </div>
+                </div>
+                <div class="bought-item">
+                    <div class="item-info">
+                        <div class="item-img"><img src="/img/Rectangle 70.png" alt=""></div>
+                        <div class="item-info-details">
+                            <h4>Áo sơ mi dài tay Luis Vuitton Military</h4>
+                            <span>Size: XL</span>
+                            <span>Màu: Trắng đen</span>
+                            <span>Số lượng: 1</span>
+                        </div>
+                        <div class="item-delivery-info">
+                            <span>1.000.000 đ</span>
+                            <div class="item-delivery-status">
+                                <i class="fa-solid fa-truck"></i>
+                                Đã vận chuyển
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    
+                    <div class="item-delivery-rout">
+                        <ul>
+                            <li>18:00 1/12/2022 Giao Hàng Thành Công</li>
+                            <li>18:00 1/12/2022 Đơn Hàng Đã Đến Địa Chỉ Giao Hàng</li>
+                            <li>11:00 1/12/2022 Đơn Hàng Đã Rời Kho</li>
+                            <li>8:00 1/12/2022 Đơn Hàng Đã Đến Kho Gia Lâm, Hà Nội</li>
+                            <li>7:00 1/12/2022 Giao Hàng Cho Đơn Vị Vận Chuyển</li>
+                            <li>18:00 30/11/2022 Đơn Hàng Được Duyệt</li>
+                        </ul>
+                    </div>
+                    <hr>
+
+                    <div class="item-fnc-btn">
+                        <button class="refund-btn">Yêu cầu hoàn tiền</button>
+                        <button class="confirm-btn">Đã nhận được hàng</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="logoB">
+        <img src="/img/NOW STORE.png" alt="" />
+      </div>
+      <div class="r-container">
+        <div class="routerB">
+          <a href="index.html" class="home-page menu-item">Trang Chủ</a>
+          <a href="products.html" class="products-page menu-item">Sản Phẩm</a>
+          <a href="account.html" class="account-page menu-item menu-active"
+            >Tài Khoản</a
+          >
+          <a href="cart.html" class="cart-page menu-item">Giỏ Hàng</a>
+        </div>
+      </div>
+      <span class="spanB">© 2020-2022 Now Store. All Rights Reserved.</span>
+    </div>
+  </body>
+  <script src="userAccount.js"></script>
+</html>

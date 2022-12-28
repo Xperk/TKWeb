@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #333;
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    margin-top: 150px;
+    
+}
+.container>h2{
+    margin: 20px;
+    font-size: 20px;
+}
+.edit_product_title{
+    margin-bottom: 20px;
+}
+.edit_product{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 1px 1px #757575;
+}
+.edit_list{
+    padding: 20px 20px 50px;
+}
+.edit_product_list{
+    margin-bottom: 20px;
+    display: flex;
+}
+.edit_product_list_item{
+    margin-right: 20px;
+}
+.edit_product_list_item_size{
+    display: flex;
+    justify-content: space-between;
+}
+.input_add_file{
+    position: relative;
+    margin-bottom: 8px;
+}
+.icon_file{
+    position: absolute;
+    right: 0;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.input_add_file input{
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    padding: 4px;
+}
+select{
+    width: 200px;
+    border-radius: 4px;
+    height: 30px;
+}
+textarea{
+    border-radius: 4px;
+}
+span{
+    font-size: 12px;
+}
+
+option value{
+    color: rgb(194, 0, 0);
+}

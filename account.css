@@ -1,0 +1,65 @@
+.web-body{
+    background: url("/img/bg-account.jpg") ;
+    background-position-x: center;
+    background-size: 1000px 633px;
+}
+.footer{
+    margin-top: 0;
+}
+.noti-container{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-color: #56799c;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.a-label{
+    margin-top: 50px;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.log-btn-container{
+    margin: 50px 0;
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.logIn-btn,
+.signUp-btn{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 40px 0;
+    width: 300px;
+    height: 80px;
+    background-color: #2C3E50;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+.logIn-btn:hover{
+    cursor: pointer;
+    background-color: #32475c;
+}
+
+.signUp-btn:hover{
+    cursor: pointer;
+    background-color: #32475c;
+}

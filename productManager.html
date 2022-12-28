@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./productManager.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+
+        <div class="logo">
+            <a href="index.html"><img src="/img/NOW STORE.png" alt=""></a>
+        </div>
+
+        <div class="menu">
+            <a href="index.html" class="home-page menu-item ">Trang Chủ</a>
+            <a href="products.html" class="products-page menu-item">Sản Phẩm</a>
+            <a href="account.html" class="account-page menu-item menu-active">Tài Khoản</a>
+            <a href="cart.html" class="cart-page menu-item">Giỏ Hàng</a>
+        </div>
+
+        <div class="search">
+            <div class="search-area">
+                <input type="text" placeholder="Tìm kiếm...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="body"></div>
+    <div class="container">
+        <h2>Quản lý sản phẩm</h2>
+        <div class="edit_product">
+            <div class="edit_list">
+
+                <h2 class="edit_product_title">Thêm hoặc chỉnh sửa mặt hàng</h2>
+                <div class="edit_product_list">
+                    <div class="edit_product_list_item">
+                        <span>Thêm hình ảnh:</span>
+                        <div class="input_add_file">
+                            <input type="text">
+                            <i class="fa-solid fa-folder-plus icon_file"></i>
+                        </div>
+                        <!-- <input type="file" id="file-upload" required />     -->
+                    </div>
+
+                </div>
+                <div class="edit_product_list">
+                    <div class="edit_product_list_item">
+                        <span>Tên sản phẩm:</span>
+                        <div class="input_add_file">
+                            <input placeholder="Áo sơ mi dài tay" type="text">
+                        </div>
+                    </div>
+                    <div class="edit_product_list_item">
+                        <span>Loại sản phẩm:</span>
+                        <div class="input_add_file">
+                            <select name="" id="">
+                                <option value="">Áo sơ mi</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="edit_product_list">
+                    <div class="edit_product_list_item">
+                        <span>Thương hiệu: </span>
+                        <div class="input_add_file">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="edit_product_list_item">
+                        <span>Mã sản phẩm(tự động): </span>
+                        <div class="input_add_file">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="edit_product_list_item">
+                        <span>Trạng thái:</span>
+                        <div class="input_add_file">
+                            <select name="" id="">
+                                <option value="Còn hàng">Còn hàng</option>
+                                <option value="Hết hàng">Hết hàng</option>
+                            </select>
+                        
+                        </div>
+                    </div>
+
+                </div>
+                <div class="edit_product_list">
+                    <div class="edit_product_list_item">
+                        <span>Người chỉnh sửa: </span>
+                        <div class="input_add_file">
+                            <select name="" id="">
+                                <option value="">Admin</option>
+                                <option value="">User</option>
+                            </select>
+                        </div>
+
+
+
+                        <div class="edit_product_list_item_size">
+                            <div class="edit_product_item_size">
+                                <span>Kích thước: </span>
+                                <div class="input_add_file">
+                                    <input style="width:90px;" type="text">
+                                </div>
+                            </div>
+
+                            <div class="edit_product_item_number">
+                                <span>Số lượng: </span>
+                                <div class="input_add_file">
+                                    <input style="width:90px;" type="text">
+                                </div>
+                            </div>
+
+                        </div>
+                        <input style="float: right; padding: 4px; border-radius: 6px; background-color: #000; color: #fff;" type="button" value="+ Thêm Size">
+                    </div>
+                    <div class="edit_product_list_item">
+                        <span>Mô tả:</span>
+                        <div class="input_add_file description">
+                            <textarea style="padding: 8px;" placeholder="Nhập mô tả sản phẩm" rows="15" cols="70" type="text"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div style="float:right;" class="btn_save">
+                    <input style="padding: 4px; border-radius: 6px; background-color: #000; color: #fff;" type="button" value="Lưu lại">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="logoB">
+            <img src="/img/NOW STORE.png" alt="">
+        </div>
+        <div class="r-container">
+            <div class="routerB">
+                <a href="index.html" class="home-page menu-item">Trang Chủ</a>
+                <a href="products.html" class="products-page menu-item">Sản Phẩm</a>
+                <a href="account.html" class="account-page menu-item menu-active">Tài Khoản</a>
+                <a href="cart.html" class="cart-page menu-item">Giỏ Hàng</a>
+            </div>
+        </div>
+        <span class="spanB">© 2020-2022 Now Store. All Rights Reserved.</span>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

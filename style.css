@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    appearance: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #1f2b38;
+}
+html {
+    
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+/* Nav-Bar */
+.nav-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    text-align: center;
+}
+.logo>a>img{
+    margin-top: 20px;
+}
+.menu{
+    width: 40%;
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-item{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu-active{
+    font-weight: bold;
+    text-decoration: underline white;
+}
+.search{
+    width: 30%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-area{
+    position: relative;
+    background-color: #56799C;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    color: #cacaca;
+    font-size: 15px;
+    overflow: hidden;
+}
+.search-area>input{
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    background-color: #56799C;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 5%;
+}
+
+::placeholder{
+    color: #cacaca;
+}
+
+.search-area>i{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+/*body*/
+
+.web-body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* Footer */
+   
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: #2C3E50;
+    text-align: center;
+}
+.logoB{
+   padding-top: 20px;
+}
+.r-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.routerB{
+    display: flex;
+    width: 50%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer>span{
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+

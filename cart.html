@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./cart.css">
+    <title>Sản Phẩm</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+
+        <div class="logo">
+            <a href="index.html"><img src="/img/NOW STORE.png" alt=""></a>
+        </div>
+
+        <div class="menu">
+            <a href="index.html" class="home-page menu-item ">Trang Chủ</a>
+            <a href="products.html" class="products-page menu-item">Sản Phẩm</a>
+            <a href="account.html" class="account-page menu-item">Tài Khoản</a>
+            <a href="cart.html" class="cart-page menu-item menu-active">Giỏ Hàng</a>
+        </div>
+
+        <div class="search">
+            <div class="search-area">
+                <input type="text" placeholder="Tìm kiếm...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="body"></div>
+    <div class="containers">
+        <div class="cart_name">
+            <h4>Giỏ mua sắm</h4>
+        </div>
+        <div class="mainBoard">
+            <div class="dashboard dashboard_product">
+                <div class="dashboard_content">
+                    <div class="dashboard_content_tab">
+                        <div class="dashboard_content_title checked">1. Sản phẩm</div>
+                        <div class="dashboard_content_title ">2. Địa chỉ và vận chuyển</div>
+                        <div class="dashboard_content_title ">3. Phương thức thanh toán</div>
+                        <div class="line1"></div>
+                    </div>
+                </div>
+                <div class="dashboard_content_list active">
+                    <div class="dashboard_content_list_item_all">
+                        <div class="dashboard_content_list_item_deltal">
+                            <input type="checkbox" name="" id="">
+                            <h4 class="check_all">Tất cả</h4>
+                        </div>
+                    </div>
+                    <div class="dashboard_content_list_item">
+                        <div class="dashboard_content_list_item_deltal">
+                            <input type="checkbox" name="" id="">
+                            <div class="thumb_item">
+                                <img src="./img/Rectangle 68.jpg" alt="">
+                            </div>
+                            <div class="info_item">
+                                <div class="deltal_item">
+                                    <h4>Áo khoác da bò Louis Vuitton</h4>
+                                </div>
+                                <div class="deltal_item">Size: L</div>
+                                <div class="deltal_item">Màu: Đen</div>
+                                <div class="amount_item">
+                                    Số lượng:
+                                    <div class="number_amount">
+                                        <i class="fa-solid fa-minus cart_icon minus"></i>
+                                        <div class="number">1</div>
+                                        <i class="fa-solid fa-plus cart_icon plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_cart_item">
+                            <div class="deltal_item price">1.969.999đ</div>
+                            <div class="emotion_item">
+                                Thêm vào danh sách yêu thích
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="deltal_item delete">
+                                Xóa khỏi
+                                <i class="fa-solid fa-trash"></i>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="dashboard_content_list_item">
+                        <div class="dashboard_content_list_item_deltal">
+                            <input type="checkbox" name="" id="">
+                            <div class="thumb_item">
+                                <img src="./img/Rectangle 68.jpg" alt="">
+                            </div>
+                            <div class="info_item">
+                                <div class="deltal_item">
+                                    <h4>Áo khoác da bò Louis Vuitton</h4>
+                                </div>
+                                <div class="deltal_item">Size: L</div>
+                                <div class="deltal_item">Màu: Đen</div>
+                                <div class="amount_item">
+                                    Số lượng:
+                                    <div class="number_amount">
+                                        <i class="fa-solid fa-minus cart_icon minus"></i>
+                                        <div class="number">1</div>
+                                        <i class="fa-solid fa-plus cart_icon plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_cart_item">
+                            <div class="deltal_item price">1.969.999đ</div>
+                            <div class="emotion_item">
+                                Thêm vào danh sách yêu thích
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="deltal_item delete">
+                                Xóa khỏi
+                                <i class="fa-solid fa-trash"></i>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+
+
+                </div>
+                <div class="dashboard_content_list ">
+                    <div class="dashboard_content_list_item">
+                        <h4 class="dashboard_content_list_item_deltal">
+                            Phương thức vận chuyển
+                        </h4>
+                    </div>
+                    <div class="dashboard_content_list_item item_transport click">
+                        <div class="dashboard_content_list_item_deltal">
+                            <div class="info_item">
+                                <div class="deltal_item">
+                                    <h4>Giao hàng tiết kiệm</h4>
+                                </div>
+                                <div class="deltal_item">Dự kiến giao hàng trong 5 - 7 ngày kể từ lúc vận chuyển</div>
+
+                            </div>
+                        </div>
+                        <div class="price_cart_item">
+                            <div class="deltal_item">
+                                15.000đ
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-box-open method_transport"></i>
+                    </div>
+                    <div class="dashboard_content_list_item item_transport">
+                        <div class="dashboard_content_list_item_deltal">
+                            <div class="info_item">
+                                <div class="deltal_item">
+                                    <h4>Giao hàng nhanh</h4>
+                                </div>
+                                <div class="deltal_item">Dự kiến giao hàng trong 3 - 5 ngày kể từ lúc vận chuyển</div>
+
+                            </div>
+                        </div>
+                        <div class="price_cart_item">
+                            <div class="deltal_item">
+                                30.000đ
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-truck-arrow-right method_transport"></i>
+                    </div>
+                    <div class="dashboard_content_list_item item_transport">
+                        <div class="dashboard_content_list_item_deltal">
+                            <div class="info_item">
+                                <div class="deltal_item">
+                                    <h4>Vận chuyển hỏa tốc</h4>
+                                </div>
+                                <div class="deltal_item">Dự kiến giao hàng trong 1 - 2 ngày kể từ lúc vận chuyển</div>
+
+                            </div>
+                        </div>
+                        <div class="price_cart_item">
+                            <div class="deltal_item">
+                                65.000đ
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-truck-fast method_transport"></i>
+                    </div>
+
+
+
+                    <div class="receiver_addr">
+                        <h4 class="receiver_contitle">Thông tin người nhận</h4>
+                        <div class="receiver_contitle">
+                            <div class="receiver_info">
+                                <div class="receiver_info_name">
+                                    <label for="">Họ và tên: </label>
+                                    <input placeholder="Nguyễn Văn A" type="text">
+                                </div>
+                                <div class="receiver_info_name">
+                                    <label for="">Email: </label>
+                                    <input placeholder="Email người nhận" type="text">
+                                </div>
+                            </div>
+                            <div class="receiver_info_name">
+                                <label for="">Số điện thoại: </label>
+                                <input placeholder="Số điện thoại người nhận" type="text">
+                            </div>
+                        </div>
+
+
+                        <div class="receiver_contitle">
+                            <div class="receiver_info">
+                                <div class="receiver_info_name">
+                                    <label for="">Địa chỉ nhận hàng: </label>
+                                    <input placeholder="Số nhà, đường..." type="text">
+                                </div>
+                                <div class="receiver_info_name">
+                                    <label for="">Quận / huyện: </label>
+                                    <input placeholder="Quận hoặc huyện..." type="text">
+                                </div>
+                            </div>
+                            <div class="receiver_info_name">
+                                <label for="">Thành phố: </label>
+                                <input placeholder="Thành phố..." type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard_content_list ">
+                    <div class="dashboard_content_list_item">
+                        <h4 class="dashboard_content_list_item_deltal">
+                            Phương thức thanh toán
+                        </h4>
+                    </div>
+                    <div class="dashboard_content_list_item item_transport item_transport_pay click">
+                        <div class="dashboard_content_list_item_deltal">
+                            <div class="info_item">
+                                <div class="deltal_item">
+                                    <h4>Thanh toán khi nhận hàng</h4>
+                                </div>
+                                <div class="deltal_item">Thanh toán bằng tiền mặt</div>
+
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-sack-dollar method_transport"></i>
+                    </div>
+
+                    <div class="dashboard_content_list_item item_transport item_transport_pay">
+                        <div class="dashboard_content_list_item_deltal">
+                            <div class="info_item">
+                                <div class="deltal_item">
+                                    <h4>Thanh toán bằng phương thức chuyển khoản</h4>
+                                </div>
+                                <div class="deltal_item">Sử dụng tài khoản ngân hàng hoặc ví điện tử</div>
+
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-building-columns method_transport"></i>
+                    </div>
+
+
+
+                    <div class="receiver_pay">
+                        <h4 class="receiver_contitle">Thông tin người nhận</h4>
+                        <div class="receiver_contitle">
+                            <div class="receiver_info">
+                                <div class="receiver_info_name">
+                                    <label for="">Họ và tên: </label>
+                                    <input placeholder="Nguyễn Văn A" type="text">
+                                </div>
+                                <div class="receiver_info_name">
+                                    <label for="">Số điện thoại: </label>
+                                    <input placeholder="Số điện thoại người nhận" type="text">
+                                </div>
+                            </div>
+                            <div style="margin: 10px 0;" class="receiver_info_name">
+                                <label for="">Ngân hàng: </label>
+                                <select name="bank" id="">
+                                    <option value="-" selected>--Chọn ngân hàng--</option>
+                                    <option value="BIDV">BIDV</option>
+                                    <option value="MB">MB</option>
+                                    <option value="TCB">TCB</option>
+                                    <option value="VBA">VBA</option>
+                                    <option value="BIB">VIB</option>
+                                    <option value="ACB">ACB</option>
+                                </select>
+                            </div>
+                            <div class="receiver_info_name">
+                                <label for="">Số tài khoản: </label>
+                                <input placeholder="Nhập số tài khoản" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard_detail">
+                <div class="dashboard_detail_item">
+                    <div class="dashboard_item">
+                        <div class="dashboard_content_list_item">
+                            <div class="dashboard_content_list_item_deltal">
+                                <div class="thumb_item">
+                                    <img src="./img/Rectangle 68.jpg" alt="">
+                                </div>
+                                <div class="info_item">
+                                    <div class="deltal_item">
+                                        <h4>Áo khoác da bò Louis Vuitton</h4>
+                                    </div>
+                                    <div class="deltal_item">Size: L</div>
+                                    <div class="deltal_item">Màu: Đen</div>
+                                    <div class="amount_item">
+                                        Số lượng
+                                        <div class="number">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price_cart_item">
+                                <div class="deltal_item price">1.969.999đ</div>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="dashboard_content_list_item">
+                            <div class="dashboard_content_list_item_deltal">
+                                <div class="info_item">
+                                    <div class="deltal_item">Tạm tính: </div>
+                                    <div class="deltal_item">Phí vận chuyển: </div>
+                                </div>
+                            </div>
+                            <div class="price_cart_item">
+                                <div class="deltal_item price">1.969.999đ</div>
+                                <div class="deltal_item transport_fee">
+                                    15.000đ
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="dashboard_content_list_item btn">
+                        <div class="dashboard_content_list_item_deltal">
+                            <div class="info_item">
+                                <h4 class="deltal_item">Tổng (Đã bao gồm cả thuế VAT): </h4>
+                            </div>
+                        </div>
+                        <div class="price_cart_item">
+                            <div class="deltal_item price">1.999.999đ</div>
+                        </div>
+                    </div>
+                    <div class="btn_continue">
+                        Tiếp tục
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sản phẩm -->
+    </div>
+    </div>
+
+    <div class="footer">
+        <div class="logoB">
+            <img src="/img/NOW STORE.png" alt="">
+        </div>
+        <div class="r-container">
+            <div class="routerB">
+                <a href="index.html" class="home-page menu-item">Trang Chủ</a>
+                <a href="products.html" class="products-page menu-item">Sản Phẩm</a>
+                <a href="account.html" class="account-page menu-item">Tài Khoản</a>
+                <a href="cart.html" class="cart-page menu-item menu-active">Giỏ Hàng</a>
+            </div>
+        </div>
+        <span class="spanB">© 2020-2022 Now Store. All Rights Reserved.</span>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

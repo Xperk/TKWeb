@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="s-account.css" />
+    <title>Tài Khoản Admin</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="logo">
+        <a href="index.html"><img src="/img/NOW STORE.png" alt="" /></a>
+      </div>
+
+      <div class="menu">
+        <a href="index.html" class="home-page menu-item">Trang Chủ</a>
+        <a href="products.html" class="products-page menu-item">Sản Phẩm</a>
+        <a href="account.html" class="account-page menu-item menu-active"
+          >Tài Khoản</a
+        >
+        <a href="cart.html" class="cart-page menu-item">Giỏ Hàng</a>
+      </div>
+
+      <div class="search">
+        <div class="search-area">
+          <input type="text" placeholder="Tìm kiếm..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="web-body">
+      <div class="account-container">
+        <aside>
+          <div class="top">
+            <div class="name-a">
+              <h2>Tài Khoản Admin</h2>
+            </div>
+          </div>
+
+          <div class="sidebar">
+            <a href="#" id="a-info" class="active"> <h3>Thông tin chi tiết</h3></a>
+            <a href="#" id="a-orders"><h3>Quản lý đơn hàng</h3></a>
+            <a href="#" id="a-accounts"><h3>Quản lý tài khoản</h3></a>
+            <a href="#" id="a-products"><h3>Quản lý sản phẩm</h3></a>
+            <a href="login.html" id="log-out"><h3>Đăng xuất</h3><i class="fa-solid fa-right-from-bracket"></i></a>
+          </div>
+        </aside>
+
+        <main>
+
+          <!-- info -->
+          <div class="info-main-container  activated">
+            
+            <div class="a-label"><h1>Thông tin cá nhân</h1></div>
+  
+            <div class="a-row">
+              <div class="a-value-label">Họ và tên:</div>
+              <div class="a-value">Nguyễn Văn Admin</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div> <hr />
+  
+            <div class="a-row">
+              <div class="a-value-label">Ngày sinh:</div>
+              <div class="a-value">01/01/2002</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div> <hr />
+  
+            <div class="a-row">
+              <div class="a-value-label">Giới tính:</div>
+              <div class="a-value">Nam</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div> <hr />
+  
+            <div class="a-row">
+              <div class="a-value-label">Email:</div>
+              <div class="a-value">toilaadmin@gmail.com</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div> <hr />
+  
+            <div class="a-row">
+              <div class="a-value-label">Số điện thoại:</div>
+              <div class="a-value">0987654321</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div>
+            <div class="a-label"><h1>Thiết lập</h1></div>
+            <div class="a-row">
+              <div class="a-value-label">Mật khẩu:</div>
+              <div class="a-value">**********</div>
+              <i class="fa-solid fa-pencil"></i>
+              <span>Sửa</span>
+            </div>
+            <div class="a-row">
+              <button class="a-btn">Lưu Thay Đổi</button>
+            </div>
+          </div>
+
+          <!-- orders -->
+          <div class="orders-main-container">
+           <table class="a-table">
+            <thead>
+              <tr>
+                <th>Mã Đơn Hàng</th>
+                <th>Tên Sản Phẩm</th>
+                <th>Thương Hiệu</th>
+                <th>Giá Tiền</th>
+                <th>Trạng Thái</th>
+                <th>Thao Tác</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>1.000.000đ</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+              </tr>
+              </tr>
+            </tbody>
+           </table>
+           <h2>Xem thêm...</h2>
+           <div class="a-fuction">
+            <button class="a-fnc-btn">Lưu Thay Đổi</button>
+            <div class="a-search-area">
+              <input type="text" placeholder="Tìm kiếm..." />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          </div>
+
+          <!-- accounts -->
+          <div class="accounts-main-container">
+            <table class="a-table">
+             <thead>
+               <tr>
+                 <th>STT</th>
+                 <th>Tên Đăng Nhập</th>
+                 <th>Mật Khẩu</th>
+                 <th>Số Điện Thoại</th>
+                 <th>Email</th>
+                 <th>Quyền Thao Tác</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>1</td>
+                 <td>daylataikhoan</td>
+                 <td>**********</td>
+                 <td>099887744</td>
+                 <td >
+                  daylaemail@gmail.com
+                 </td>
+                 <td class="a-edit">
+                  <select name="authority" id="authority">
+                    <option value="admin">Admin</option>
+                    <option value="user">User</option>
+                  </select>
+                 </td>
+               </tr>
+               <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>daylataikhoan</td>
+                <td>**********</td>
+                <td>099887744</td>
+                <td >
+                 daylaemail@gmail.com
+                </td>
+                <td class="a-edit">
+                 <select name="authority" id="authority">
+                   <option value="admin">Admin</option>
+                   <option value="user">User</option>
+                 </select>
+                </td>
+              </tr>
+             </tbody>
+            </table>
+            <h2>Xem thêm...</h2>
+            <div class="a-fuction">
+              <button class="a-fnc-btn">Lưu Thay Đổi</button>
+              <div class="a-search-area">
+                <input type="text" placeholder="Tìm kiếm..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+           </div>
+
+
+          <!-- products -->
+          <div class="products-main-container ">
+            <table class="a-table">
+             <thead>
+               <tr>
+                 <th>Mã Sản Phẩm</th>
+                 <th>Tên Sản Phẩm</th>
+                 <th>Thương Hiệu</th>
+                 <th>Loại Sản Phẩm</th>
+                 <th>Trạng Thái</th>
+                 <th>Thao Tác</th>
+                 <th>Đăng lên</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>ABC123</td>
+                 <td>Áo Sơ Mi Luis Vuiton</td>
+                 <td>Luis Vuiton</td>
+                 <td>Áo Nam</td>
+                 <td class="a-status">
+                   <select name="status" id="a-status">
+                     <option value="accepted" id="accepted">Đã duyệt </option>
+                     <option value="unaccepted" id="unaccepted">Hủy</option>
+                     <option value="pending" id="pending">Đang chờ</option>
+                   </select>
+                 </td>
+                 <td class="a-edit">
+                   <i class="fa-solid fa-pencil "></i>
+                   <i class="fa-solid fa-trash "></i>
+                 </td>
+                 <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+               </tr>
+               <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+              <tr>
+                <td>ABC123</td>
+                <td>Áo Sơ Mi Luis Vuiton</td>
+                <td>Luis Vuiton</td>
+                <td>Áo Nam</td>
+                <td class="a-status">
+                  <select name="status" id="a-status">
+                    <option value="accepted" id="accepted">Đã duyệt </option>
+                    <option value="unaccepted" id="unaccepted">Hủy</option>
+                    <option value="pending" id="pending">Đang chờ</option>
+                  </select>
+                </td>
+                <td class="a-edit">
+                  <i class="fa-solid fa-pencil "></i>
+                  <i class="fa-solid fa-trash "></i>
+                </td>
+                <td><i class="fa-sharp fa-solid fa-circle-check"></i></td>
+              </tr>
+             </tbody>
+            </table>
+            <h2>Xem thêm...</h2>
+            <div class="a-fuction">
+              <button class="a-fnc-btn"><a href="productManager.html" style="color:white;">Thêm Sản Phẩm</a></button>
+              <button class="a-fnc-btn">Lưu Thay Đổi</button>
+              <div class="a-search-area">
+                <input type="text" placeholder="Tìm kiếm..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+           </div>
+        </main>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="logoB">
+        <img src="/img/NOW STORE.png" alt="" />
+      </div>
+      <div class="r-container">
+        <div class="routerB">
+          <a href="index.html" class="home-page menu-item">Trang Chủ</a>
+          <a href="products.html" class="products-page menu-item">Sản Phẩm</a>
+          <a href="account.html" class="account-page menu-item menu-active"
+            >Tài Khoản</a
+          >
+          <a href="cart.html" class="cart-page menu-item">Giỏ Hàng</a>
+        </div>
+      </div>
+      <span class="spanB">© 2020-2022 Now Store. All Rights Reserved.</span>
+    </div>
+  </body>
+  <script src="adminAccount.js"></script>
+</html>
