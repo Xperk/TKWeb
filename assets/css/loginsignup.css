@@ -26,7 +26,7 @@ html {
 }
 
 .signup_form {
-    background: #2c3e50;
+    background: #63707C;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -38,10 +38,9 @@ html {
     min-height: 100px;
     padding: 32px 24px;
     text-align: center;
-    background: #2c3e50;
+    background: #63707C;
     border-radius: 2px;
     align-self: center;
-    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
 }
 
 
@@ -67,6 +66,7 @@ html {
     display: flex;
     margin-bottom: 16px;
     flex-direction: column;
+    position: relative;
 }
 
 .form-label,
@@ -82,13 +82,21 @@ html {
 }
 
 .form-control {
-    background: #2c3e50;
+    background: #63707C;
     height: 40px;
     padding: 8px 12px;
-    border: 1px solid #b3b3b3;
+    border: 1px solid #fff;
     border-radius: 8px;
     outline: none;
     font-size: 1.4rem;
+}
+.icon_pass{
+    /* display: block; */
+    position: absolute;
+    line-height: 40px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
 }
 
 .while_color{

@@ -13,7 +13,6 @@ html {
 .containers {
     margin-top: 150px;
     width: 96vw;
-    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -68,6 +67,17 @@ html {
     width: 100%;
     justify-content: space-between;
 }
+.dashboard_content_list_item__deltal{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
+}
+.check_box_all{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
 
 .dashboard_content {
     display: flex;
@@ -81,7 +91,7 @@ html {
     padding: 8px;
     cursor: pointer;
     color: #8b8888;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .check_all {
@@ -109,6 +119,12 @@ html {
 }
 .emotion_item{
     text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.emotion_title{
+    padding-right   : 8px;
 }
 
 .delete {

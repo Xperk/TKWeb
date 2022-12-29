@@ -17,4 +17,25 @@
     .dash_board_item_price{
         flex-direction: row;
     }
+    .dashboard_content_title{
+        font-size: 1rem;
+    }
+    .emotion_title,
+    /* .dashboard_content, */
+    .check_box_all,
+    .price_product_dashboard,
+    .icon_check{
+        display: none;
+    }
+    .receiver_info{
+        display: block;
+    }
+    .receiver_info_name{
+        width: 100%;
+    }
+}
+@media(max-width:320px){
+    .dashboard_content_title{
+        font-size: 0.8rem;
+    }
 }

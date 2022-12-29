@@ -9,11 +9,13 @@ html {
     font-size: 62.5%;
     font-family: "Open Sans", sans-serif;
 }
+
 .product_bestSeller_all i,
 .product_bestSeller_all,
-.products_bestSeller span{
+.products_bestSeller span {
     color: #fff;
 }
+
 .nav-bar {
     position: fixed;
     top: 0;
@@ -24,7 +26,7 @@ html {
     margin-top: 100px;
 }
 
-.banner img{
+.banner img {
     /* margin-top: 88px;
     padding-top: 50%;
     background: url(img/Banner.png) top center / cover no-repeat; */
@@ -75,7 +77,8 @@ html {
 .products_item:hover {
     cursor: pointer;
 }
-.deltal_item{
+
+.deltal_item {
     text-decoration: none;
     color: #000;
 }
