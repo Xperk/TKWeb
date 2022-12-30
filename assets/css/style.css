@@ -114,7 +114,6 @@ a:hover{
     width: 100vw;
     height: 750px;
     background:rgba(245, 245, 245, 1);
-    width: 100vw;
     position: relative;
     top: 150px;
 }
@@ -164,7 +163,7 @@ h2 {
 }
 
 .row-2 {
-    padding-top: 145px;
+    padding-top: 105px;
 }
 
 .grid_column-item2 {
