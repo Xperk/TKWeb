@@ -7,23 +7,22 @@
     box-sizing: border-box;
     color: #1f2b38;
 }
-
 html {
-
+    
     font-size: 62.5%;
     font-family: "Open Sans", sans-serif;
     font-family: "Roboto", sans-serif;
 }
 
-body {
+body{
     width: 100%;
 }
 
-button:hover {
+button:hover{
     cursor: pointer;
 }
 
-a:hover {
+a:hover{
     cursor: pointer;
 }
 
@@ -50,12 +49,11 @@ a:hover {
 .header_navbar-list {
     list-style: none;
     padding: 0 80px;
-}
+}   
 
 .header_navar-item {
     display: inline-block;
 }
-
 .header_navar-item-link {
     text-decoration: none;
     color: #514F4F;
@@ -64,7 +62,7 @@ a:hover {
 }
 
 .header_navar-item-link:hover {
-    color: rgba(81, 79, 79, 0.8);
+    color:rgba(81, 79, 79, 0.8);
 }
 
 .header_navar-item2 {
@@ -79,7 +77,7 @@ a:hover {
 }
 
 .header_navar-item-icon:hover {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0,0,0,0.7);
 }
 
 .div_search {
@@ -108,10 +106,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
 /* Footer */
-
+   
 .footer {
     width: 100vw;
     height: 750px;
@@ -146,17 +144,16 @@ h2 {
     display: block;
     font-size: 2rem;
     font-weight: 700;
-}
+}   
 
-.grid_column-list {
+.grid_column-list{
     list-style: none;
-
+    
 }
 
 .grid_column-item1 {
     text-align: left;
     padding-left: 50px;
-    padding-bottom: 8px;
 }
 
 .item-link {
@@ -166,11 +163,11 @@ h2 {
 }
 
 .item-link:hover {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0,0,0,0.7);
 }
 
 .row-2 {
-    padding-top: 145px;
+    /* padding-top: 145px; */
 }
 
 .grid_column-item2 {
@@ -189,3 +186,6 @@ h2 {
     font-size: 1.5rem;
     padding-left: 20px;
 }
+
+
+
