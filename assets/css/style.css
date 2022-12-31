@@ -303,4 +303,11 @@ h2 {
     align-items: center;
 }
 
-
+.product_more{
+    margin: 40px 0;
+    display: flex;
+    font-size: 1.4rem;
+}
+.product_more_item{
+    margin: auto;
+}

@@ -16,11 +16,11 @@ html {
 
 .products_container_headingg{
     padding-top: 150px;
-    width: 1200px;
+    width: 1340px;
     margin: auto;
 }
 .product_btn{
-    width: 1200px;
+    width: 1340px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -73,7 +73,7 @@ html {
 
 .dash_board {
     background: #eee;
-    width: 1200px;
+    width: 1340px;
     margin: auto;
     border-radius: 8px;
 }
