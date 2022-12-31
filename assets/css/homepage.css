@@ -10,6 +10,10 @@ html {
     font-family: "Open Sans", sans-serif;
 }
 
+a:hover{
+    cursor: pointer;
+}
+
 .product_bestSeller_all i,
 .product_bestSeller_all,
 .products_bestSeller span {
@@ -25,33 +29,6 @@ html {
 .main_home_page {
     /* margin-top: 100px; */
 }
-
-.banner img {
-    /* margin-top: 88px;
-    padding-top: 50%;
-    background: url(img/Banner.png) top center / cover no-repeat; */
-    width: 100vw;
-}
-
-.products_container_heading {
-    text-align: center;
-    margin: 100px 0;
-}
-
-.title_home_page {
-    font-size: 10px;
-}
-
-.content_home_page {
-    font-size: 30px;
-    padding: 6px;
-}
-
-.description_home_page_title {
-    padding-bottom: 4px;
-}
-
-
 
 .products_container_list_item {
     width: 1200px;
