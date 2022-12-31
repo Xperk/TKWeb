@@ -170,6 +170,10 @@ a:hover{
     height: auto;
 }
 
+.grid_container_row2 {
+    margin-top: 4rem;
+}
+
 .container_item {
     text-align: left;
 }
@@ -281,5 +285,22 @@ h2 {
     padding-left: 20px;
 }
 
+/* column */
+
+.grid_row {
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_column {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 25%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 

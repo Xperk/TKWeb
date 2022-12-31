@@ -590,18 +590,3 @@
     }
 }
 
-.grid_row {
-    padding-top: 45px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.grid_column {
-    display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 25%;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-}
