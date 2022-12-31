@@ -6,6 +6,10 @@ button:hover{
   cursor: pointer;
 }
 
+img:hover{
+  cursor: pointer;
+}
+
 .pd-container {
   margin: 0 150px;
   font-size: 20px;
@@ -90,7 +94,8 @@ button:hover{
   flex-wrap: wrap;
 }
 
-.pd-color > div {
+.pd-color > button {
+  border: none;
   width: 17%;
   height: 54px;
   border-radius: 20px;

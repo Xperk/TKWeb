@@ -66,12 +66,12 @@
 
       <div class="pd-main">
         <div class="pd-another_pics">
-          <img src="./assets/img/polo3.jpeg" alt="">
-          <img src="./assets/img/polo4.jpeg" alt="">
-          <img src="./assets/img/polo5.jpeg" alt="">
+          <img src="./assets/img/polo3.jpeg" alt="" class="sml-img" onclick="changeImg(this)">
+          <img src="./assets/img/polo4.jpeg" alt="" class="sml-img" onclick="changeImg(this)">
+          <img src="./assets/img/polo5.jpeg" alt="" class="sml-img" onclick="changeImg(this)">
         </div>
         <div class="pd-main_pic">
-          <img src="./assets/img/polo2.jpg" alt="">
+          <img src="./assets/img/polo2.jpg" id="main-pic" alt="">
         </div>
         <div class="pd-details">
           <h1>Polo Oversize Wave</h1>
@@ -86,11 +86,11 @@
           <h3 class="pd_price">350.000đ</h3>
           <h6>Màu sắc:</h1>
           <div class="pd-color">
-            <div class="color" style="background-color: #000;"></div>
-            <div class="color" style="background-color:#d9d9d9;"></div>
-            <div class="color" style="background-color: #fff; border: 1px black solid;"></div>
-            <div class="color" style="background-color: #458a58;"></div>
-            <div class="color" style="background-color: #f2a1a1;"></div>
+            <button class="color" style="background-color: #000;"></button>
+            <button class="color" style="background-color:#d9d9d9;"></button>
+            <button class="color" style="background-color: #fff; border: 1px black solid;"></button>
+            <button class="color" style="background-color: #458a58;"></button>
+            <button class="color" style="background-color: #f2a1a1;"></button>
           </div>
           <h6>Kích thước:</h1>
           <div class="pd-size">
@@ -103,9 +103,9 @@
           <div class="pd-quantities">
             <span>Số lượng:</span>
             <div class="quantity">
-              <button class="btn minus">-</button>
-              <span>1</span>
-              <button class="btn plus">+</button>
+              <button class="btn" id="minus">-</button>
+              <span id="quant">1</span>
+              <button class="btn" id="plus">+</button>
             </div>
           </div>
           <div class="pd-fnc_btn">
@@ -374,6 +374,28 @@
             </div>
         </div>
     </div>
+    <script>
+      const mainImg=document.getElementById("main-pic");
+      const smlImgs=document.getElementsByClassName("sml-img");
+      const quant=document.getElementById("quant");
+      const minusBtn=document.getElementById("minus");
+      const plusBtn=document.getElementById("plus");
+
+      function changeImg(el){
+        mainImg.src=el.src;
+      }
+
+      minusBtn.addEventListener("click",()=>{
+        if(quant.innerText!=="1"){
+          quant.innerText--;
+        }
+      })
+
+      plusBtn.addEventListener("click",()=>{
+        quant.innerText++;
+      })
+
+    </script>
 </body>
 
 </html>
