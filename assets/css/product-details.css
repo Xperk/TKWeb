@@ -1,0 +1,289 @@
+a:hover{
+  cursor: pointer;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.pd-container {
+  margin: 0 150px;
+  font-size: 20px;
+}
+
+
+.pd-router {
+  margin: 30px 0 50px 0;
+}
+
+.pd-router > a:hover {
+  text-decoration: underline;
+}
+
+.pd-main {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  height: 85vh;
+  grid-template-columns: 15% 45% 40%;
+  overflow: hidden;
+}
+
+.pd-another_pics {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pd-another_pics > img {
+  width: 50%;
+  height: 17%;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.pd-main_pic {
+  overflow: hidden;
+}
+
+.pd-main_pic > img {
+  width: 80%;
+  height: 95%;
+  border-radius: 20px;
+}
+
+.pd-details {
+  width: 80%;
+}
+
+.pd-details > h1 {
+  margin-top: 20px;
+  font-size: 85px;
+  line-height: 66px;
+}
+
+.pd-rate {
+  width: 100%;
+  line-height: 25px;
+  margin: 30px 0;
+}
+
+.pd-rate > i {
+  color: #fed533;
+  width: 22.5px;
+  height: 21.54px;
+}
+
+.pd_price {
+  font-size: 62px;
+  line-height: 46px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.pd-details > h6 {
+  font-size: 20px;
+}
+
+.pd-color {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pd-color > div {
+  width: 17%;
+  height: 54px;
+  border-radius: 20px;
+  margin: 20px 20px 20px 0;
+}
+
+.pd-size {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pd-size > button {
+  display: flex;
+  border: none;
+  outline: none;
+  width: 17%;
+  height: 54px;
+  border-radius: 20px;
+  margin: 20px 20px 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+}
+
+.pd-quantities {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pd-quantities > span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 150px;
+}
+
+.quantity {
+  width: 156px;
+  height: 52px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid rgba(0, 0, 0, 0.6);
+}
+
+.quantity > button {
+  width: 30%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.quantity > span {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #AEABAB;
+  font-weight: bold;
+}
+
+.pd-fnc_btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fnc_btn{
+  width: 45%;
+  height: 63px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #7ad2c8;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pd-description{
+  width: 100%;
+  height: 40vh;
+}
+
+.pd_label{
+  background-color: #2C3E50;
+  border-radius: 4px;
+  line-height: 36px;
+}
+
+.pd_label>span{
+  font-size: 24px;
+  margin-left: 20px;
+  color: white;
+}
+
+#product-des{
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.pd-description>ul>li{
+  margin: 30px 0;
+  margin-left: 80px;
+}
+
+.pd-comments{
+  width: 100%;
+  height: 50vh;
+}
+
+.comment{
+  margin: 40px 20px;
+}
+
+.name_and_rate{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name_and_rate>h6{
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.name_and_rate>i{
+  color: #fed533;
+}
+
+
+.pd-related{
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.r_label{
+  width: 20%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.r_label>h3{
+  font-size: 40px;
+}
+
+.r_products{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.r_product_img>img{
+  width: 80%;
+  height: 100%;
+}
+
+.r_product_name{
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.r_product_rate>i{
+  color: #FAF000;
+  margin: 10px 0;
+}
+
+.r_product_price{
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
+
+
