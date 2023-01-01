@@ -166,8 +166,9 @@ a:hover{
 }
 
 .container_item img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 320px;
+    background-color: ;
 }
 
 .grid_container_row2 {
@@ -311,3 +312,4 @@ h2 {
 .product_more_item{
     margin: auto;
 }
+

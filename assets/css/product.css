@@ -54,10 +54,15 @@ html {
 .dashboard_content_title{
     padding: 0 8px;
     color: #666666;
+    font-family: 'Inter';
+    font-size: 2.0rem;
 }
 .dashboard_content_title_checked{
     position: relative;
-    font-size: 1.2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
 }
 .line2{
     position: absolute;
