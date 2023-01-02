@@ -81,6 +81,7 @@ tabs.forEach(function (tab, index) {
     }
 })
 
+
 // số lượng sản phẩm
 const minuss = $$('.minus');
 const pluss = $$('.plus');
@@ -118,15 +119,15 @@ transports.forEach(function (transport, index) {
         if (index == 0) {
             transport_fee.innerText = '';
             transport_fee.innerText += '15.000đ';
-        }else if(index == 1){
+        } else if (index == 1) {
             transport_fee.innerText = '';
             transport_fee.innerText += '30.000đ';
-        }else if(index == 2){
+        } else if (index == 2) {
             transport_fee.innerText = '';
             transport_fee.innerText += '65.000đ';
         }
     }
-    
+
 })
 
 transports_pay.forEach(function (transport_pay, index) {
