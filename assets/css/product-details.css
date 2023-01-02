@@ -32,6 +32,7 @@ img:hover {
   gap: 10px;
   grid-template-columns: 15% 45% 40%;
   overflow: hidden;
+  height: 80vh;
 }
 
 .pd-another_pics {
