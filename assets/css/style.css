@@ -132,7 +132,7 @@ a:hover{
     width: 580px;
     margin-top: 40px;
     border-bottom: 3px solid #B8B4B4;
-    display: inline-block;
+    margin: auto;
     
 }
 
