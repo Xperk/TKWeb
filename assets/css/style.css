@@ -130,9 +130,8 @@ a:hover{
 
 .products_container_selection {
     width: 580px;
-    margin-top: 40px;
     border-bottom: 3px solid #B8B4B4;
-    margin: auto;
+    margin: 40px auto 0;
     
 }
 
