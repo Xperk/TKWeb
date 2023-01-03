@@ -64,9 +64,7 @@ select{
 textarea{
     border-radius: 4px;
 }
-span{
-    font-size: 12px;
-}
+
 
 option value{
     color: rgb(194, 0, 0);
