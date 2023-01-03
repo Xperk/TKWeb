@@ -12,13 +12,13 @@
     position: relative;
 }
 .log-btn-container {
-    top: 20%;
+    top: 25%;
     align-items: center;
     position: absolute;
     margin: auto;
     left: 50%;
-    width: 700px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     background-color: #fff;
     justify-content: center;
     border-radius: 10px;
