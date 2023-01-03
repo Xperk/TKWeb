@@ -158,6 +158,7 @@ a:hover{
     font-size: 2rem;
     line-height: 24px;
     color: #827A7A;
+    cursor: pointer;
 }
 
 
@@ -316,9 +317,11 @@ h2 {
     margin: 40px 0;
     display: flex;
     font-size: 1.4rem;
+   
 }
 .product_more_item{
     margin: auto;
+    cursor: pointer;
 }
 
 .active{
@@ -326,4 +329,13 @@ h2 {
 }
 .check{
     color: #000;
+}
+
+.active-page{
+   color: #000;
+   font-size: 25px;
+}
+
+@media screen and (max-width:600px) {
+    
 }
